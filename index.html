@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width,  initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+
+<body bgcolor="skyblue">
+
+    <div class="main">
+
+
+
+
+
+        <table>
+            <tr>
+                <input type="text" name="" id="enter">
+
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="clearResult()">Clear</button></td>
+                <td><button onclick=" deletesingle()"><i class="fas fa-backspace"></i></button></td>
+                <td><button onclick="number('/')">/</button></td>
+
+
+
+
+            </tr>
+            <tr>
+                <td><button onclick="number('7')">7</button></td>
+                <td><button onclick="number('8')">8</button></td>
+                <td><button onclick="number('9')">9</button></td>
+                <td><button onclick="number('*')">X</button></td>
+
+            </tr>
+            <tr>
+                <td><button onclick="number('4')">4</button></td>
+                <td><button onclick="number('5')">5</button></td>
+                <td><button onclick="number('6')">6</button></td>
+                <td><button onclick="number('+')">+</button></td>
+
+            </tr>
+            <tr>
+                <td><button onclick="number('1')">1</button></td>
+                <td><button onclick="number('2')">2</button></td>
+                <td><button onclick="number('3')">3</button></td>
+                <td><button onclick="number('-')">-</button></td>
+
+
+            </tr>
+            <tr>
+                <td><button onclick="number('0')">0</button></td>
+                <td><button onclick="number('.')">.</button></td>
+                <td><button onclick="result()">=</button></td>
+                <td><button onclick="number('%')">%</button></td>
+
+            </tr>
+        </table>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
